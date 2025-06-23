@@ -141,3 +141,60 @@
     <footer>&copy; 2025 lechoixparfait - Tous droits réservés</footer>
 </body>
 </html>
+/* Style général clair-sombre */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #1e1e1e;
+    color: #f1f1f1;
+}
+
+header {
+    background: #111;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.logo {
+    height: 50px;
+}
+
+nav a {
+    color: #f1f1f1;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav a:hover,
+nav a.active {
+    color: #00cc99;
+}
+
+main {
+    padding: 30px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+h1 {
+    color: #00cc99;
+    font-size: 2em;
+}
+
+.product, article {
+    background: #2a2a2a;
+    border: 1px solid #333;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+.product a, article a {
+    display: inline-block;
+    margin-top: 10px;
+    backg
