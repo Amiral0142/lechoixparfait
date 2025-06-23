@@ -1,2 +1,2 @@
 # lechoixparfait
-Vous faites toujours le bon choix avec le choix parfait
+Avec le choix parfait vous taites toujours le bon choix
