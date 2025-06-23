@@ -103,4 +103,41 @@
     </main>
     <footer>&copy; 2025 lechoixparfait - Tous droits réservés</footer>
 </body>
+</html><!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Contact – lechoixparfait</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <header>
+        <img src="logo.png" alt="Logo lechoixparfait" class="logo"/>
+        <nav>
+            <a href="index.html">Accueil</a>
+            <a href="produits.html">Produits</a>
+            <a href="blog.html">Blog</a>
+            <a href="contact.html" class="active">Contact</a>
+        </nav>
+    </header>
+    <main>
+        <h1>Contactez-nous</h1>
+        <p>Vous avez une question ? Remplissez ce formulaire :</p>
+        <form>
+            <label for="nom">Nom :</label>
+            <input type="text" id="nom" name="nom" required />
+
+            <label for="email">Email :</label>
+            <input type="email" id="email" name="email" required />
+
+            <label for="message">Message :</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Envoyer</button>
+        </form>
+        <p><em>Formulaire non fonctionnel (exemple uniquement)</em></p>
+    </main>
+    <footer>&copy; 2025 lechoixparfait - Tous droits réservés</footer>
+</body>
 </html>
