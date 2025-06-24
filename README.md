@@ -29,3 +29,14 @@
   background-color: #005bb5;
 }
 </style>
+<div class="products-container">
+  <!-- Plusieurs .product-card ici -->
+</div>
+
+<style>
+.products-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+</style>
